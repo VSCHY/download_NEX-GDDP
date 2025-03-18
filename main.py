@@ -14,7 +14,7 @@ varname = "tasmax"
 
 #"hurs" download _1_1 -> check in different models
 
-variables_name = ["rsds"]
+variables_name = ["tasmax", "tas", "tasmin","pr","sfcWind", "hurs"]
 
 for varname in variables_name:
     print(varname)

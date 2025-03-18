@@ -16,11 +16,11 @@ def get_years(scenario):
         first = 1950
     elif scenario == "ssp585":
         y0 = 2015
-        y1 = 2060
+        y1 = 2100
         first = 2015
     elif scenario == "ssp245":
         y0 = 2015
-        y1 = 2060
+        y1 = 2100
         first = 2015
     return first, y0, y1
 
